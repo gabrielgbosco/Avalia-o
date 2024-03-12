@@ -1,0 +1,35 @@
+* {
+    cursor: url(../../visual/imagens/geral/favicon.ico), default;
+}
+
+body {
+    padding: 150px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+
+img {
+    width: 600px;
+    height: 500px;
+}
+
+button {
+    padding: 30px;
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    transform: scale(1.2);
+}

@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    cursor: url(../../visual/imagens/geral/favicon.ico), default;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 50px;
+    font-family: "Raleway", sans-serif;
+    text-shadow: black 0.01em 0.01em 0.01em;
+    font-weight: 500;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,13,168,0.4234068627450981) 35%, rgba(0,255,46,1) 100%);
+    height: 60px;
+    word-spacing: 4px;
+}
+
+#section-principal {
+    background-image: url(../../visual/imagens/atividade/sky.jpg);
+    background-size: cover;
+}
+
+main {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+#section-1 {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 15%;
+    padding-bottom: 50px;
+}
+
+#section-2 {
+    display: flex;
+    padding-left: 25%;
+    padding-bottom: 50px;
+}
+
+#section-3 {
+    display: flex;
+    padding-left: 35%;
+    padding-bottom: 50px;
+}
+
+#section-4 {
+    display: flex;
+    padding-left: 45%;
+    padding-bottom: 50px;
+}
+
+#section-5 {
+    display: flex;
+    padding-left: 55%;
+    padding-bottom: 50px;
+}
+
+#section-6 {
+    display: flex;
+    padding-left: 65%;
+    padding-bottom: 50px;
+}
+
+#section-7 {
+    display: flex;
+    padding-left: 75%;
+    padding-bottom: 50px;
+}
+
+#section-botao-voltar {
+    padding-left: 60px;
+}
+
+#botao-voltar {
+    padding: 30px;
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#botao-voltar:hover {
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    transform: scale(1.2);
+}
+
+#div-1 {
+    color: white;
+    padding-inline: 50px;
+    padding-block: 20px;
+    background-color: red;
+}
+
+#div-2 {
+    padding-inline: 50px;
+    padding-block: 20px;
+    background-color: rgb(241, 181, 31);
+}
+
+#div-3 {
+    padding-inline: 50px;
+    padding-block: 20px;
+    background-color: yellow;
+}
+
+#div-4 {
+    padding-inline: 50px;
+    padding-block: 20px;
+    background-color: rgb(74, 242, 74);
+}
+
+#div-5 {
+    padding-inline: 50px;
+    padding-block: 20px;
+    background-color: rgb(105, 202, 237);
+}
+
+#div-6 {
+    color: white;
+    padding-inline: 50px;
+    padding-block: 20px;
+    background-color: #240879;
+}
+
+#div-7 {
+    color: white;
+    padding-inline: 50px;
+    padding-block: 20px;
+    background-color: #740d9d;
+}
+
+#imagens-fim-da-pagina-parte-um {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+
+.imagens-parte-um {
+    max-width: 18%;
+    max-height: 8%;
+}
+
+#imagens-fim-da-pagina-parte-dois {
+    display: flex;
+    align-content: flex-start;
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+.imagens-parte-dois {
+    width: 20%;
+    min-height: 290px;
+    height: 100%;
+}
